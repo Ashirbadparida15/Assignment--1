@@ -1,5 +1,5 @@
-pi=3.1415926535897931
-d=12
-r=d//2
-v=4/3*pi*r**3
-print(v)
+fst=input('Enter first name:')
+lst=input('Enter second name:')
+full=fst+' '+lst
+reverse=full[::-1]
+print(reverse)
